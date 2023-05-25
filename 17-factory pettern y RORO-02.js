@@ -1,7 +1,11 @@
+function requiredParam(param){
+    throw new Error(param + " Este parametro es obligatorio");
+}
+
 function createStudent({
-    name,
-    age,
-    email,
+    name = requiredParam("name"),
+    age = requiredParam("age"),
+    email = requiredParam("email"),
     twitter,
     facebook,
     approveddCourse,
@@ -12,16 +16,18 @@ function createStudent({
         name,
         age,
         email,
+        approveddCourse,
+        learningPaths,
         socialMedia:{
             twitter,
             facebook
-        },
-        approveddCourse,
-        learningPaths02
-        
+        }   
     }
 }
 
 const juan = createStudent({
     name: 'Miguel',
+    age: 21,
+    email: 'miguel@example.com',
+    twitter:'miguel-EMC'
 }); //{}
