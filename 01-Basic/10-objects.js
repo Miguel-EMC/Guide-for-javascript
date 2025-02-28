@@ -1,7 +1,8 @@
 /**
  * Objetos
  * 
- * Los objetos se manejan con propiedades, una convinacion entre palabra claves y valores 
+ * Los objetos se manejan con propiedades, una convinacion entre palabra claves y valores
+ * Es una estructura de datos que ayuda a guardar datos key / value 
  */
 
 var miAuto = {
@@ -28,4 +29,3 @@ var misDatos = {
  * 
  * como por ejemplo misDatos.nombre
  */
-
