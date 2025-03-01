@@ -1,7 +1,7 @@
 /**
  * Existen dos tipos de funciones
  * 1. Funciones Declarativas
- * 2. Funciones Expresión
+ * 2. Funciones Expresión o Anonimas
  */
 
 // 1. Funciones Declarativas
@@ -10,7 +10,7 @@ function miFuncion(){
 }
 miFuncion();
 
-// 1. Funciones Expresión
+// 2. Funciones Expresión
 // Conocidas tambien como funciones anonimas
 
 var miFuncion = function(){
